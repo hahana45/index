@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff5f6;
+    margin: 0px;
+}
+
+header {
+    background-color: #FFDCE0;
+    color: #87bfff;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #ffbbc6;
+    color: #99c6ff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+    font-style: italic;
+}
+
+article {
+    float: left;
+    width: 81%;
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    margin: 0 5px 0 25px;
+}
+
+aside {
+    float: right;
+    position: sticky;
+    top: 100px;
+    background-color: #ffffff;
+    width: 15%;
+    font-size: 15px;
+    font-family: 微軟正黑體;
+}
+
+h2 {
+    background-color: #FFDCE0;
+    color: #87bfff;
+    margin: 20px 700px 50px 100px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h3 {
+    text-indent: 30px;
+}
+
+h4{
+    margin: 20px 0 0 120px;
+}
+
+h5 {
+    text-indent: 8px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 21px;
+    line-height: 2px;
+}
+
+h6 {
+    background-color: #FFDCE0;
+    color: #87bfff;
+    margin: 20px 100px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+dl {
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0 0 10px 60px;
+}
+
+
+ul {
+    list-style-image: url(image/heart.png);
+}
+
+.slogan {
+    font-size: 21px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 250%;
+    margin: 0 0 50px 0;
+    text-align: center;
+}
+
+.text {
+    margin: 0 50px;
+}
+
+.text1 {
+    margin: 0 20px 30px 150px;
+    line-height: 40px;
+}
+
+.style1 {
+    background-color: #fffddc;
+    border: #D3E2F1 8px dashed;
+    border-radius: 8% 0% 8% 0%;
+    margin: 25px;
+    padding: 25px;
+}
+
+.style2 {
+    background-color: #fffddc;
+    border: #FFDCE0 8px double;
+    border-radius: 0% 8% 0% 8%;
+    margin: 25px;
+    padding: 25px;
+}
+
+.style3 {
+    background-color: #fffddc;
+    border: #F3DEFF 7px solid;
+    border-radius: 5%;
+    padding: 5px 0 5px 30px;
+    margin: 25px 10px;
+}
+
+.style4 {
+    width: 100%;
+    display: flex;
+}
+.style4 section {
+    width: 50%;
+}
+
+.id {
+    text-align: center;
+    float: center;
+    font-family: 'Alkatra', cursive;
+}
+
+
+.set {
+    float: right;
+    margin: 20px;
+}
+
+
+.array {
+    display: flex;
+    width: 100%;
+}
+
+.array0 {
+    display: flex;
+    width: 50%;
+}
+
+.array1 {
+    display: flex;
+    width: 100%;
+    margin: 20px 10px 10px 300px;
+}
+
+.array2 {
+    display: flex;
+    width: 100%;
+    margin: 50px;
+    padding: 0 35px;
+}
+
+.picture {
+    margin: 0 50px;
+    text-align: center;
+}
+
+.item {
+    width: 20%;
+    margin: 20px 40px 20px 60px;
+    text-align: center;
+}
+
+.items {
+    width: 90%;
+    margin: 10px;
+    border: solid #f3deff;
+    border-width: 0 0 0 15px ;
+    padding: 0 0 0 10px;
+    line-height: 30px;
+}
+
+.item1 {
+    background-color: #CDDAFD;
+    border: solid #CDDAFD 8px;
+    width: 20%;
+    margin: 20px 20px 20px 100px;
+    padding: 65px 0 0 0 ;
+    text-align: center;
+}
+
+.items1 {
+    background:linear-gradient(to right,#CDDAFD,#FFFDDC) ;
+    font-family: 'Alkatra', cursive;
+    width: 40%;
+    margin: 20px 20px 20px 0;
+    padding: 20px 5px;
+    text-align: center;
+    line-height:25px;
+}
+
+.personality {
+    width: 100px;
+    height: 100px;
+    background-color: #dba5ec;
+    border-radius: 5px;
+    color: #fffddc;
+    text-align: center;
+    padding: 30px 0 0 0;
+    margin: 10px 0 0 20px;
+}
+
+.personality1 {
+    margin: 20px 0 0 20px;
+}
+
+td {
+    padding: 5px 10px;
+}
+
+.clearfix {
+    clear:both;
+}
+
+.name {
+    text-indent: 2cm;
+    text-shadow: 10px 10px 10px #aacdfe ;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+.txt {
+    line-height: 40px;
+    margin: 20px;
+}
+
+.test {
+    margin: 100px 0 0 0 ;
+    text-align: center;
+}
+
+.progress {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: #F3DEFF;
+    border-radius: 50%;
+    animation: try 3s;
+    text-align: center;
+    padding: 20px 50px;
+    font-family: 'Alkatra', cursive;
+    font-size: 25px;
+}
+
+@keyframes try {
+    0%{border-radius: 50%;}
+    100%{border-radius: 0%;}
+}
+
+
+
